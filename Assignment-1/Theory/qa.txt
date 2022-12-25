@@ -1,0 +1,32 @@
+What is Emmet?
+        Emmet is used to make JS code editor much easier to use. 
+        It is like shortcuts for code typing.
+        Just enter the specific abbreviation about the code then you will get whole pre written code.
+        For example: !+tab ==> Doctype HTML code snippet is opens up.
+
+Difference between a Library and Framework?
+        Library:    A library provides a set of helper functions/objects/modules which your application code calls for specific functionality. 
+                    Libraries typically focus on a narrow scope, so their API’s also tend to be smaller and require fewer dependencies.
+        Framework:  Framework, on the other hand has defined open or unimplemented functions or objects which the user writes to create a custom application.
+                    Because a framework is itself an application, it has a wider scope and includes almost everything necessary to make a user application as per his own needs.
+
+ What is CDN? Why do we use it?
+        CDN stands for content delivery network.
+        CDN is a network of servers linked together with the goal of delivering content as quickly, cheaply, reliably, securly as possible.   
+
+Why is React known as React?
+        React was developed for applications (Facebook) that have constantly changing data. 
+        Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app’s data, the view should “react” or change with those user events.
+        User events being mouse clicks, typing, submitting a form.            
+
+What is crossorigin in script tag?
+        When you are on one domain coming from one computer and you are making new request to resources that coming from some place else, The browser has decide how to handle that situation.
+        crossorigin attribute is way to control or atleast inform the Browser as to how it should Approach using these resources.    
+
+What is diference between React and ReactDOM?
+        React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+What is difference between react.development.js and react.production.js files via CDN?
+        react.development.js: Used in local development tool. It is less optimized. 
+        react.production.js: Used in production development tool. It is more optimized.
+
