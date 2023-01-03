@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Namaste React Assignmenet 1</title>
+</head>
+<body>
+   
+    <div>
+        <h1>Hello World in HTML</h1>
+    </div>   
+ 
+    <div id="root">
+
+    </div>
+  
+    <div id="rootForReact">
+
+    </div>
+    <script>
+        <!-- This is creating a heading element and appending it to the root element. -->
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World in JS DOM Manipulation";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
+   
+    <script type="module" src="app.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "namaste-react-live-learning",
+  "version": "1.0.0",
+  "description": "31-12-2022",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Damanpreet Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
